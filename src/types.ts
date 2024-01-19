@@ -22,3 +22,15 @@ export interface Location {
   name: string;
   url: string;
 }
+
+export interface Page<T> {
+  info: Info;
+  results: T[];
+}
+
+export interface Info {
+  count: number;
+  pages: number;
+  next: string | null;
+  prev: string | null;
+}

@@ -9,7 +9,7 @@ export default function Toolbar() {
   const navLinks: NavLink[] = [
     {
       name: "Characters",
-      path: "/character/list",
+      path: "/character/list/1",
     },
   ];
   return (
